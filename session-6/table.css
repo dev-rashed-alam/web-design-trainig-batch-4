@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table tr:nth-child(1){
+    background-color: #e3e3e3;
+    color: tomato;
+}
+
+.table tr:nth-child(even){
+    /* background-color: #e3e3e3; */
+    background-color: rgb(98, 175, 87);
+}
+
+td,th{
+    border: 2px solid #e2e2e2;
+}
+
+tr:hover{
+    background-color: teal;
+}
