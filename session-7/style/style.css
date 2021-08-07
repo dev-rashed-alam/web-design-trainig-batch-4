@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    border: 3px solid tomato;
+    overflow: auto;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+.div2{
+    border: 3px solid tomato;
+    overflow: auto;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.div2 .img{
+    float: right;
+}
