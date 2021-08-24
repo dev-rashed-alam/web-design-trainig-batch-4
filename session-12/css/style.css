@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexContainer{
+    height: 300px;
+    display: flex;
+    background-color: aquamarine;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    /* flex-flow: row; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+
+}
+
+.flexContainer div{
+    width: 100px;
+    margin: 10px;
+    background-color: tomato;
+    padding: 10px;
+}
