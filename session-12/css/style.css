@@ -9,10 +9,10 @@
     display: flex;
     background-color: aquamarine;
     /* flex-direction: row;
-    flex-wrap: nowrap; */
-    /* flex-flow: row; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    /* justify-content: center;
+    align-items: flex-end; */
 
 }
 
@@ -21,4 +21,6 @@
     margin: 10px;
     background-color: tomato;
     padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
