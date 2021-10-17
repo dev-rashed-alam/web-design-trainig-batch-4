@@ -1,0 +1,113 @@
+.nav-bg {
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    color      : #fff !important;
+    font-weight: bold;
+    font-size  : 30px;
+    font-style : italic;
+}
+
+.nav-item a {
+    color      : #fff !important;
+    font-weight: 700;
+    font-size  : 18px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color    : #fff;
+    background-color: #e3e3e3;
+}
+
+/* Slider section start */
+#slider-section .container-fluid {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+#slider-section img {
+    width : 100%;
+    height: 400px;
+}
+
+
+/*About section*/
+#about-section{
+    padding: 60px 0 100px;
+    background-color: #f3f0f0;
+}
+
+#about-section h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0 5px;
+}
+#about-section p{
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+#about-section .title-description{
+    padding: 0 0 40px;
+}
+
+/*Parllax Effect*/
+
+#parallax-effect{
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../img/about/parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background: url("../img/about/parallax.jpg");*/
+}
+
+#parallax-effect h4{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: coral;
+    font-style: italic;
+    font-size: 30px;
+}
+
+/* Gallery section start */
+
+#gallery{
+    padding: 50px 0;
+}
+#gallery h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 0 5px;
+    text-align: center;
+}
+#gallery p{
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#gallery nav{
+    text-align: center;
+}
+#gallery ul{
+    list-style-type: none;
+}
+#gallery ul li{
+    display: inline-block;
+}
+#gallery button{
+    border: 1px solid tomato;
+    background-color: tomato;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+#gallery .gallery-item{
+    margin: 20px 0;
+}
